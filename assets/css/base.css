@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --mainColor :#474747;
+    --subColor: #F9F9F7;
+    --thColor : #ADB29E;
+
+    --mainFont: "Playfair Display", serif;
+    --subFont:  "DM Mono", monospace;
+}
+a
+{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container
+{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
