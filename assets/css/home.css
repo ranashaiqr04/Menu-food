@@ -397,7 +397,20 @@
         gap: 10px;
     }
 }
-
+@media screen and (max-width:360px) {
+    .info-homepage h1
+    {
+        font-size: 15px;
+    }
+    .info-homepage p
+    {
+        font-size: 8px;
+    }
+    .info-homepage .row {
+        gap: 10px;
+    }
+ 
+}
 /*********************************/
 .browse-our-menu
 {
@@ -521,9 +534,8 @@ justify-content: center;
 }
 @media screen and (max-width:580px)
 {
-    .browse-our-menu
-    {
-        padding: 0px;
+    .browse-our-menu {
+        padding: 14px;
     }
 }
 
@@ -533,7 +545,12 @@ justify-content: center;
    width: 340px;
     }
 }
+@media screen and (max-width:360px) {
 
+    .info-food {
+   width: 250px;
+    }
+}
 /**************************************/
 .footer
 {
